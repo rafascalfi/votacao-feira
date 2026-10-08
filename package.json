@@ -1,0 +1,19 @@
+{
+  "name": "votacao-feira",
+  "version": "1.0.0",
+  "description": "Sistema de Votação Popular para Feira de Projetos com Validação por Dispositivo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test_system.js"
+  },
+  "keywords": ["votacao", "feira", "projetos", "fingerprint"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
